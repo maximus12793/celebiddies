@@ -1,0 +1,538 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'db-mysql' ]
+2 info using npm@3.5.3
+3 info using node@v0.10.29
+4 verbose node symlink /usr/local/bin/node
+5 verbose config Skipping project config: /Users/ericroquemore/.npmrc. (matches userconfig)
+6 silly loadCurrentTree Starting
+7 silly install loadCurrentTree
+8 silly install readLocalPackageData
+9 silly fetchPackageMetaData db-mysql
+10 silly fetchNamedPackageData db-mysql
+11 silly mapToRegistry name db-mysql
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/db-mysql
+15 verbose request uri https://registry.npmjs.org/db-mysql
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 20:51:44
+18 verbose request id 837eb3a6e1cf21ba
+19 http request GET https://registry.npmjs.org/db-mysql
+20 http 200 https://registry.npmjs.org/db-mysql
+21 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 verbose headers   etag: '"E74NO8G8NFRI6DY0WHLB77X81"',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'content-length': '46583',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Sun, 17 Jan 2016 02:51:43 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1452999103.511495,VS0,VE177',
+21 verbose headers   vary: 'Accept' }
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"E74NO8G8NFRI6DY0WHLB77X81"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'content-length': '46583',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Sun, 17 Jan 2016 02:51:43 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-ord1731-ORD',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1452999103.511495,VS0,VE177',
+22 silly get     vary: 'Accept' } ]
+23 verbose get saving db-mysql to /Users/ericroquemore/.npm/registry.npmjs.org/db-mysql/.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule db-mysql@0.7.6 checking installable status
+37 silly cache add args [ 'db-mysql', null ]
+38 verbose cache add spec db-mysql
+39 silly cache add parsed spec { raw: 'db-mysql',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'db-mysql',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed db-mysql@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for db-mysql
+42 info addNameTag [ 'db-mysql', 'latest' ]
+43 silly mapToRegistry name db-mysql
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/db-mysql
+47 verbose addNameTag registry:https://registry.npmjs.org/db-mysql not in flight; fetching
+48 verbose get https://registry.npmjs.org/db-mysql not expired, no request
+49 silly addNameTag next cb for db-mysql with tag latest
+50 silly addNamed db-mysql@0.7.6
+51 verbose addNamed "0.7.6" is a plain semver version for db-mysql
+52 silly mapToRegistry name db-mysql
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/db-mysql
+56 verbose addRemoteTarball https://registry.npmjs.org/db-mysql/-/db-mysql-0.7.6.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/db-mysql/-/db-mysql-0.7.6.tgz',
+57 verbose addRemoteTarball   'ff870557afb1ee4197712211d26b6a05394a7aeb' ]
+58 info retry fetch attempt 1 at 20:51:45
+59 info attempt registry request try #1 at 20:51:45
+60 http fetch GET https://registry.npmjs.org/db-mysql/-/db-mysql-0.7.6.tgz
+61 http fetch 200 https://registry.npmjs.org/db-mysql/-/db-mysql-0.7.6.tgz
+62 silly fetchAndShaCheck shasum ff870557afb1ee4197712211d26b6a05394a7aeb
+63 verbose addTmpTarball /tmp/npm-1698-772e87ac/registry.npmjs.org/db-mysql/-/db-mysql-0.7.6.tgz not in flight; adding
+64 verbose addTmpTarball already have metadata; skipping unpack for db-mysql@0.7.6
+65 silly cache afterAdd db-mysql@0.7.6
+66 verbose afterAdd /Users/ericroquemore/.npm/db-mysql/0.7.6/package/package.json not in flight; writing
+67 verbose afterAdd /Users/ericroquemore/.npm/db-mysql/0.7.6/package/package.json written
+68 silly loadAllDepsIntoIdealTree Finishing
+69 silly idealTree:prePrune ericroquemore
+69 silly idealTree:prePrune ├── bignumber.js@2.1.4
+69 silly idealTree:prePrune ├── core-util-is@1.0.2
+69 silly idealTree:prePrune ├── db-mysql@0.7.6
+69 silly idealTree:prePrune ├─┬ express@4.12.2
+69 silly idealTree:prePrune │ ├─┬ accepts@1.2.4
+69 silly idealTree:prePrune │ │ ├─┬ mime-types@2.0.9
+69 silly idealTree:prePrune │ │ │ └── mime-db@1.7.0
+69 silly idealTree:prePrune │ │ └── negotiator@0.5.1
+69 silly idealTree:prePrune │ ├── content-disposition@0.5.0
+69 silly idealTree:prePrune │ ├── content-type@1.0.1
+69 silly idealTree:prePrune │ ├── cookie-signature@1.0.6
+69 silly idealTree:prePrune │ ├── cookie@0.1.2
+69 silly idealTree:prePrune │ ├─┬ debug@2.1.2
+69 silly idealTree:prePrune │ │ └── ms@0.7.0
+69 silly idealTree:prePrune │ ├── depd@1.0.0
+69 silly idealTree:prePrune │ ├── escape-html@1.0.1
+69 silly idealTree:prePrune │ ├─┬ etag@1.5.1
+69 silly idealTree:prePrune │ │ └── crc@3.2.1
+69 silly idealTree:prePrune │ ├── finalhandler@0.3.3
+69 silly idealTree:prePrune │ ├── fresh@0.2.4
+69 silly idealTree:prePrune │ ├── merge-descriptors@1.0.0
+69 silly idealTree:prePrune │ ├── methods@1.1.1
+69 silly idealTree:prePrune │ ├─┬ on-finished@2.2.0
+69 silly idealTree:prePrune │ │ └── ee-first@1.1.0
+69 silly idealTree:prePrune │ ├── parseurl@1.3.0
+69 silly idealTree:prePrune │ ├── path-to-regexp@0.1.3
+69 silly idealTree:prePrune │ ├─┬ proxy-addr@1.0.6
+69 silly idealTree:prePrune │ │ ├── forwarded@0.1.0
+69 silly idealTree:prePrune │ │ └── ipaddr.js@0.1.8
+69 silly idealTree:prePrune │ ├── qs@2.3.3
+69 silly idealTree:prePrune │ ├── range-parser@1.0.2
+69 silly idealTree:prePrune │ ├─┬ send@0.12.1
+69 silly idealTree:prePrune │ │ ├── destroy@1.0.3
+69 silly idealTree:prePrune │ │ ├── mime@1.3.4
+69 silly idealTree:prePrune │ │ └── ms@0.7.0
+69 silly idealTree:prePrune │ ├── serve-static@1.9.1
+69 silly idealTree:prePrune │ ├─┬ type-is@1.6.0
+69 silly idealTree:prePrune │ │ ├── media-typer@0.3.0
+69 silly idealTree:prePrune │ │ └─┬ mime-types@2.0.9
+69 silly idealTree:prePrune │ │   └── mime-db@1.7.0
+69 silly idealTree:prePrune │ ├── utils-merge@1.0.0
+69 silly idealTree:prePrune │ └── vary@1.0.0
+69 silly idealTree:prePrune ├── inherits@2.0.1
+69 silly idealTree:prePrune ├── isarray@0.0.1
+69 silly idealTree:prePrune ├── mysql@2.10.2
+69 silly idealTree:prePrune ├── readable-stream@1.1.13
+69 silly idealTree:prePrune └── string_decoder@0.10.31
+70 silly loadIdealTree Finishing
+71 silly currentTree ericroquemore
+71 silly currentTree ├── bignumber.js@2.1.4
+71 silly currentTree ├── core-util-is@1.0.2
+71 silly currentTree ├─┬ express@4.12.2
+71 silly currentTree │ ├─┬ accepts@1.2.4
+71 silly currentTree │ │ ├─┬ mime-types@2.0.9
+71 silly currentTree │ │ │ └── mime-db@1.7.0
+71 silly currentTree │ │ └── negotiator@0.5.1
+71 silly currentTree │ ├── content-disposition@0.5.0
+71 silly currentTree │ ├── content-type@1.0.1
+71 silly currentTree │ ├── cookie-signature@1.0.6
+71 silly currentTree │ ├── cookie@0.1.2
+71 silly currentTree │ ├─┬ debug@2.1.2
+71 silly currentTree │ │ └── ms@0.7.0
+71 silly currentTree │ ├── depd@1.0.0
+71 silly currentTree │ ├── escape-html@1.0.1
+71 silly currentTree │ ├─┬ etag@1.5.1
+71 silly currentTree │ │ └── crc@3.2.1
+71 silly currentTree │ ├── finalhandler@0.3.3
+71 silly currentTree │ ├── fresh@0.2.4
+71 silly currentTree │ ├── merge-descriptors@1.0.0
+71 silly currentTree │ ├── methods@1.1.1
+71 silly currentTree │ ├─┬ on-finished@2.2.0
+71 silly currentTree │ │ └── ee-first@1.1.0
+71 silly currentTree │ ├── parseurl@1.3.0
+71 silly currentTree │ ├── path-to-regexp@0.1.3
+71 silly currentTree │ ├─┬ proxy-addr@1.0.6
+71 silly currentTree │ │ ├── forwarded@0.1.0
+71 silly currentTree │ │ └── ipaddr.js@0.1.8
+71 silly currentTree │ ├── qs@2.3.3
+71 silly currentTree │ ├── range-parser@1.0.2
+71 silly currentTree │ ├─┬ send@0.12.1
+71 silly currentTree │ │ ├── destroy@1.0.3
+71 silly currentTree │ │ ├── mime@1.3.4
+71 silly currentTree │ │ └── ms@0.7.0
+71 silly currentTree │ ├── serve-static@1.9.1
+71 silly currentTree │ ├─┬ type-is@1.6.0
+71 silly currentTree │ │ ├── media-typer@0.3.0
+71 silly currentTree │ │ └─┬ mime-types@2.0.9
+71 silly currentTree │ │   └── mime-db@1.7.0
+71 silly currentTree │ ├── utils-merge@1.0.0
+71 silly currentTree │ └── vary@1.0.0
+71 silly currentTree ├── inherits@2.0.1
+71 silly currentTree ├── isarray@0.0.1
+71 silly currentTree ├── mysql@2.10.2
+71 silly currentTree ├── readable-stream@1.1.13
+71 silly currentTree └── string_decoder@0.10.31
+72 silly idealTree ericroquemore
+72 silly idealTree ├── bignumber.js@2.1.4
+72 silly idealTree ├── core-util-is@1.0.2
+72 silly idealTree ├── db-mysql@0.7.6
+72 silly idealTree ├─┬ express@4.12.2
+72 silly idealTree │ ├─┬ accepts@1.2.4
+72 silly idealTree │ │ ├─┬ mime-types@2.0.9
+72 silly idealTree │ │ │ └── mime-db@1.7.0
+72 silly idealTree │ │ └── negotiator@0.5.1
+72 silly idealTree │ ├── content-disposition@0.5.0
+72 silly idealTree │ ├── content-type@1.0.1
+72 silly idealTree │ ├── cookie-signature@1.0.6
+72 silly idealTree │ ├── cookie@0.1.2
+72 silly idealTree │ ├─┬ debug@2.1.2
+72 silly idealTree │ │ └── ms@0.7.0
+72 silly idealTree │ ├── depd@1.0.0
+72 silly idealTree │ ├── escape-html@1.0.1
+72 silly idealTree │ ├─┬ etag@1.5.1
+72 silly idealTree │ │ └── crc@3.2.1
+72 silly idealTree │ ├── finalhandler@0.3.3
+72 silly idealTree │ ├── fresh@0.2.4
+72 silly idealTree │ ├── merge-descriptors@1.0.0
+72 silly idealTree │ ├── methods@1.1.1
+72 silly idealTree │ ├─┬ on-finished@2.2.0
+72 silly idealTree │ │ └── ee-first@1.1.0
+72 silly idealTree │ ├── parseurl@1.3.0
+72 silly idealTree │ ├── path-to-regexp@0.1.3
+72 silly idealTree │ ├─┬ proxy-addr@1.0.6
+72 silly idealTree │ │ ├── forwarded@0.1.0
+72 silly idealTree │ │ └── ipaddr.js@0.1.8
+72 silly idealTree │ ├── qs@2.3.3
+72 silly idealTree │ ├── range-parser@1.0.2
+72 silly idealTree │ ├─┬ send@0.12.1
+72 silly idealTree │ │ ├── destroy@1.0.3
+72 silly idealTree │ │ ├── mime@1.3.4
+72 silly idealTree │ │ └── ms@0.7.0
+72 silly idealTree │ ├── serve-static@1.9.1
+72 silly idealTree │ ├─┬ type-is@1.6.0
+72 silly idealTree │ │ ├── media-typer@0.3.0
+72 silly idealTree │ │ └─┬ mime-types@2.0.9
+72 silly idealTree │ │   └── mime-db@1.7.0
+72 silly idealTree │ ├── utils-merge@1.0.0
+72 silly idealTree │ └── vary@1.0.0
+72 silly idealTree ├── inherits@2.0.1
+72 silly idealTree ├── isarray@0.0.1
+72 silly idealTree ├── mysql@2.10.2
+72 silly idealTree ├── readable-stream@1.1.13
+72 silly idealTree └── string_decoder@0.10.31
+73 silly generateActionsToTake Starting
+74 silly install generateActionsToTake
+75 silly generateActionsToTake Finishing
+76 silly diffTrees action count 2
+77 silly diffTrees add db-mysql@0.7.6
+78 silly diffTrees update mysql@2.10.2
+79 silly decomposeActions action count 16
+80 silly decomposeActions fetch db-mysql@0.7.6
+81 silly decomposeActions extract db-mysql@0.7.6
+82 silly decomposeActions test db-mysql@0.7.6
+83 silly decomposeActions preinstall db-mysql@0.7.6
+84 silly decomposeActions build db-mysql@0.7.6
+85 silly decomposeActions install db-mysql@0.7.6
+86 silly decomposeActions postinstall db-mysql@0.7.6
+87 silly decomposeActions finalize db-mysql@0.7.6
+88 silly decomposeActions fetch mysql@2.10.2
+89 silly decomposeActions extract mysql@2.10.2
+90 silly decomposeActions test mysql@2.10.2
+91 silly decomposeActions preinstall mysql@2.10.2
+92 silly decomposeActions build mysql@2.10.2
+93 silly decomposeActions install mysql@2.10.2
+94 silly decomposeActions postinstall mysql@2.10.2
+95 silly decomposeActions finalize mysql@2.10.2
+96 silly executeActions Starting
+97 silly install executeActions
+98 silly doSerial global-install 0
+99 silly doParallel fetch 2
+100 verbose lock using /Users/ericroquemore/.npm/_locks/staging-8b53451dcd6d3a75.lock for /Users/ericroquemore/node_modules/.staging
+101 silly doParallel extract 2
+102 silly extract db-mysql@0.7.6
+103 silly extract mysql@2.10.2
+104 verbose unbuild node_modules/.staging/db-mysql-8cf8eac0
+105 silly gentlyRm /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0 is being purged from base /Users/ericroquemore
+106 verbose gentlyRm don't care about contents; nuking /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0
+107 verbose tar unpack /Users/ericroquemore/.npm/db-mysql/0.7.6/package.tgz
+108 verbose tar unpacking to /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0
+109 silly gentlyRm /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0 is being purged
+110 verbose gentlyRm don't care about contents; nuking /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm extractEntry mysql-test-sync.js
+113 silly gunzTarPerm extractEntry mysql-test-insert.js
+114 silly gunzTarPerm extractEntry mysql-test-manual-query.js
+115 verbose unbuild node_modules/.staging/mysql-1bada577
+116 silly gentlyRm /Users/ericroquemore/node_modules/.staging/mysql-1bada577 is being purged from base /Users/ericroquemore
+117 verbose gentlyRm don't care about contents; nuking /Users/ericroquemore/node_modules/.staging/mysql-1bada577
+118 verbose tar unpack /Users/ericroquemore/.npm/mysql/2.10.2/package.tgz
+119 verbose tar unpacking to /Users/ericroquemore/node_modules/.staging/mysql-1bada577
+120 silly gentlyRm /Users/ericroquemore/node_modules/.staging/mysql-1bada577 is being purged
+121 verbose gentlyRm don't care about contents; nuking /Users/ericroquemore/node_modules/.staging/mysql-1bada577
+122 silly gunzTarPerm modes [ '755', '644' ]
+123 silly gunzTarPerm extractEntry README.md
+124 silly gunzTarPerm extractEntry tests.js
+125 silly gunzTarPerm extractEntry mysql-test-placeholder.js
+126 silly gunzTarPerm extractEntry mysql-test-no-connection.js
+127 silly gunzTarPerm extractEntry .gitignore
+128 silly gunzTarPerm extractEntry wscript
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+131 silly gunzTarPerm extractEntry index.js
+132 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+133 silly gunzTarPerm extractEntry Changes.md
+134 silly gunzTarPerm modified mode [ 'Changes.md', 438, 420 ]
+135 silly gunzTarPerm extractEntry CHANGELOG
+136 silly gunzTarPerm extractEntry .gitmodules
+137 silly gunzTarPerm extractEntry t.js
+138 silly gunzTarPerm extractEntry License
+139 silly gunzTarPerm modified mode [ 'License', 438, 420 ]
+140 silly gunzTarPerm extractEntry mysql-test-long.js
+141 silly gunzTarPerm extractEntry mysql-test.js
+142 silly gunzTarPerm extractEntry Readme.md
+143 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+144 silly gunzTarPerm extractEntry lib/Connection.js
+145 silly gunzTarPerm modified mode [ 'lib/Connection.js', 438, 420 ]
+146 silly gunzTarPerm extractEntry .npmignore
+147 silly gunzTarPerm extractEntry db-mysql.js
+148 silly gunzTarPerm extractEntry mysql-test-long-number.js
+149 silly gunzTarPerm extractEntry package.json
+150 silly gunzTarPerm extractEntry tests-settings.json
+151 silly gunzTarPerm extractEntry tests-db.js
+152 silly gunzTarPerm extractEntry lib/ConnectionConfig.js
+153 silly gunzTarPerm modified mode [ 'lib/ConnectionConfig.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry lib/Pool.js
+155 silly gunzTarPerm modified mode [ 'lib/Pool.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry mysql-test-sync-update.js
+157 silly gunzTarPerm extractEntry mysql-test-async.js
+158 silly gunzTarPerm extractEntry lib/PoolCluster.js
+159 silly gunzTarPerm modified mode [ 'lib/PoolCluster.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry lib/PoolConfig.js
+161 silly gunzTarPerm modified mode [ 'lib/PoolConfig.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry lib/PoolConnection.js
+163 silly gunzTarPerm modified mode [ 'lib/PoolConnection.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry src/mysql.cc
+165 silly gunzTarPerm extractEntry src/result.h
+166 silly gunzTarPerm extractEntry src/query.cc
+167 silly gunzTarPerm extractEntry src/mysql_bindings.cc
+168 silly gunzTarPerm extractEntry lib/PoolNamespace.js
+169 silly gunzTarPerm modified mode [ 'lib/PoolNamespace.js', 438, 420 ]
+170 silly gunzTarPerm extractEntry src/connection.cc
+171 silly gunzTarPerm extractEntry src/query.h
+172 silly gunzTarPerm extractEntry src/connection.h
+173 silly gunzTarPerm extractEntry src/result.cc
+174 silly gunzTarPerm extractEntry src/mysql.h
+175 silly gunzTarPerm extractEntry doc/api.html
+176 silly gunzTarPerm extractEntry lib/PoolSelector.js
+177 silly gunzTarPerm modified mode [ 'lib/PoolSelector.js', 438, 420 ]
+178 silly gunzTarPerm extractEntry doc/changelog.html
+179 silly gunzTarPerm extractEntry doc/index.html
+180 silly gunzTarPerm extractEntry lib/node-db/binding.h
+181 silly gunzTarPerm extractEntry lib/node-db/events.h
+182 silly gunzTarPerm extractEntry lib/node-db/exception.cc
+183 silly gunzTarPerm extractEntry lib/node-db/README.md
+184 silly gunzTarPerm extractEntry lib/protocol/Auth.js
+185 silly gunzTarPerm modified mode [ 'lib/protocol/Auth.js', 438, 420 ]
+186 silly gunzTarPerm extractEntry lib/protocol/PacketHeader.js
+187 silly gunzTarPerm modified mode [ 'lib/protocol/PacketHeader.js', 438, 420 ]
+188 silly gunzTarPerm extractEntry lib/node-db/tests.js
+189 silly gunzTarPerm extractEntry lib/node-db/result.h
+190 silly gunzTarPerm extractEntry lib/node-db/exception.h
+191 silly gunzTarPerm extractEntry lib/node-db/events.cc
+192 silly gunzTarPerm extractEntry lib/node-db/query.cc
+193 silly gunzTarPerm extractEntry lib/node-db/binding.cc
+194 silly gunzTarPerm extractEntry lib/protocol/PacketWriter.js
+195 silly gunzTarPerm modified mode [ 'lib/protocol/PacketWriter.js', 438, 420 ]
+196 silly gunzTarPerm extractEntry lib/protocol/Parser.js
+197 silly gunzTarPerm modified mode [ 'lib/protocol/Parser.js', 438, 420 ]
+198 silly gunzTarPerm extractEntry lib/node-db/connection.cc
+199 silly gunzTarPerm extractEntry lib/node-db/query.h
+200 silly gunzTarPerm extractEntry lib/protocol/Protocol.js
+201 silly gunzTarPerm modified mode [ 'lib/protocol/Protocol.js', 438, 420 ]
+202 silly gunzTarPerm extractEntry lib/protocol/ResultSet.js
+203 silly gunzTarPerm modified mode [ 'lib/protocol/ResultSet.js', 438, 420 ]
+204 silly gunzTarPerm extractEntry lib/node-db/connection.h
+205 silly gunzTarPerm extractEntry lib/node-db/node_defs.h
+206 silly gunzTarPerm extractEntry lib/node-db/result.cc
+207 silly gunzTarPerm extractEntry lib/protocol/SqlString.js
+208 silly gunzTarPerm modified mode [ 'lib/protocol/SqlString.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry lib/protocol/constants/charsets.js
+210 silly gunzTarPerm modified mode [ 'lib/protocol/constants/charsets.js', 438, 420 ]
+211 silly gunzTarPerm extractEntry lib/protocol/constants/client.js
+212 silly gunzTarPerm modified mode [ 'lib/protocol/constants/client.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry lib/protocol/constants/errors.js
+214 silly gunzTarPerm modified mode [ 'lib/protocol/constants/errors.js', 438, 420 ]
+215 silly gunzTarPerm extractEntry lib/protocol/constants/field_flags.js
+216 silly gunzTarPerm modified mode [ 'lib/protocol/constants/field_flags.js', 438, 420 ]
+217 silly gunzTarPerm extractEntry lib/protocol/constants/server_status.js
+218 silly gunzTarPerm modified mode [ 'lib/protocol/constants/server_status.js', 438, 420 ]
+219 silly gunzTarPerm extractEntry lib/protocol/constants/ssl_profiles.js
+220 silly gunzTarPerm modified mode [ 'lib/protocol/constants/ssl_profiles.js', 438, 420 ]
+221 silly gunzTarPerm extractEntry lib/protocol/constants/types.js
+222 silly gunzTarPerm modified mode [ 'lib/protocol/constants/types.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry lib/protocol/packets/ClientAuthenticationPacket.js
+224 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ClientAuthenticationPacket.js',
+224 silly gunzTarPerm   438,
+224 silly gunzTarPerm   420 ]
+225 silly gunzTarPerm extractEntry lib/protocol/packets/EofPacket.js
+226 silly gunzTarPerm modified mode [ 'lib/protocol/packets/EofPacket.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry lib/protocol/packets/ErrorPacket.js
+228 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ErrorPacket.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry lib/protocol/packets/Field.js
+230 silly gunzTarPerm modified mode [ 'lib/protocol/packets/Field.js', 438, 420 ]
+231 silly gunzTarPerm extractEntry lib/protocol/packets/EmptyPacket.js
+232 silly gunzTarPerm modified mode [ 'lib/protocol/packets/EmptyPacket.js', 438, 420 ]
+233 silly gunzTarPerm extractEntry lib/protocol/packets/HandshakeInitializationPacket.js
+234 silly gunzTarPerm modified mode [ 'lib/protocol/packets/HandshakeInitializationPacket.js',
+234 silly gunzTarPerm   438,
+234 silly gunzTarPerm   420 ]
+235 silly gunzTarPerm extractEntry lib/protocol/packets/LocalDataFilePacket.js
+236 silly gunzTarPerm modified mode [ 'lib/protocol/packets/LocalDataFilePacket.js', 438, 420 ]
+237 silly gunzTarPerm extractEntry lib/protocol/packets/OkPacket.js
+238 silly gunzTarPerm modified mode [ 'lib/protocol/packets/OkPacket.js', 438, 420 ]
+239 silly gunzTarPerm extractEntry lib/protocol/packets/OldPasswordPacket.js
+240 silly gunzTarPerm modified mode [ 'lib/protocol/packets/OldPasswordPacket.js', 438, 420 ]
+241 silly gunzTarPerm extractEntry lib/protocol/packets/ResultSetHeaderPacket.js
+242 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ResultSetHeaderPacket.js', 438, 420 ]
+243 silly gunzTarPerm extractEntry lib/protocol/packets/ComStatisticsPacket.js
+244 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComStatisticsPacket.js', 438, 420 ]
+245 silly gunzTarPerm extractEntry lib/protocol/packets/RowDataPacket.js
+246 silly gunzTarPerm modified mode [ 'lib/protocol/packets/RowDataPacket.js', 438, 420 ]
+247 silly gunzTarPerm extractEntry lib/protocol/packets/ComQuitPacket.js
+248 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComQuitPacket.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry lib/protocol/packets/SSLRequestPacket.js
+250 silly gunzTarPerm modified mode [ 'lib/protocol/packets/SSLRequestPacket.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry lib/protocol/packets/ComQueryPacket.js
+252 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComQueryPacket.js', 438, 420 ]
+253 silly gunzTarPerm extractEntry lib/protocol/packets/StatisticsPacket.js
+254 silly gunzTarPerm modified mode [ 'lib/protocol/packets/StatisticsPacket.js', 438, 420 ]
+255 silly gunzTarPerm extractEntry lib/protocol/packets/ComPingPacket.js
+256 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComPingPacket.js', 438, 420 ]
+257 silly gunzTarPerm extractEntry lib/protocol/packets/UseOldPasswordPacket.js
+258 silly gunzTarPerm modified mode [ 'lib/protocol/packets/UseOldPasswordPacket.js', 438, 420 ]
+259 silly gunzTarPerm extractEntry lib/protocol/packets/ComChangeUserPacket.js
+260 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComChangeUserPacket.js', 438, 420 ]
+261 silly gunzTarPerm extractEntry lib/protocol/packets/index.js
+262 silly gunzTarPerm modified mode [ 'lib/protocol/packets/index.js', 438, 420 ]
+263 silly gunzTarPerm extractEntry lib/protocol/packets/FieldPacket.js
+264 silly gunzTarPerm modified mode [ 'lib/protocol/packets/FieldPacket.js', 438, 420 ]
+265 silly gunzTarPerm extractEntry lib/protocol/sequences/ChangeUser.js
+266 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/ChangeUser.js', 438, 420 ]
+267 silly gunzTarPerm extractEntry lib/protocol/sequences/Handshake.js
+268 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Handshake.js', 438, 420 ]
+269 silly gunzTarPerm extractEntry lib/protocol/sequences/Ping.js
+270 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Ping.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry lib/protocol/sequences/Query.js
+272 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Query.js', 438, 420 ]
+273 silly gunzTarPerm extractEntry lib/protocol/sequences/Quit.js
+274 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Quit.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/protocol/sequences/Sequence.js
+276 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Sequence.js', 438, 420 ]
+277 silly gunzTarPerm extractEntry lib/protocol/sequences/Statistics.js
+278 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Statistics.js', 438, 420 ]
+279 silly gunzTarPerm extractEntry lib/protocol/sequences/index.js
+280 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/index.js', 438, 420 ]
+281 silly gentlyRm /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0/node_modules is being purged
+282 verbose gentlyRm don't care about contents; nuking /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0/node_modules
+283 silly gentlyRm /Users/ericroquemore/node_modules/.staging/mysql-1bada577/node_modules is being purged
+284 verbose gentlyRm don't care about contents; nuking /Users/ericroquemore/node_modules/.staging/mysql-1bada577/node_modules
+285 silly doParallel preinstall 2
+286 silly preinstall db-mysql@0.7.6 /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0
+287 info lifecycle db-mysql@0.7.6~preinstall: db-mysql@0.7.6
+288 silly preinstall mysql@2.10.2 /Users/ericroquemore/node_modules/.staging/mysql-1bada577
+289 info lifecycle mysql@2.10.2~preinstall: mysql@2.10.2
+290 silly lifecycle db-mysql@0.7.6~preinstall: no script for preinstall, continuing
+291 silly lifecycle mysql@2.10.2~preinstall: no script for preinstall, continuing
+292 silly doReverseSerial remove 0
+293 silly doSerial move 0
+294 silly doSerial finalize 2
+295 silly finalize /Users/ericroquemore/node_modules/db-mysql
+296 silly finalize /Users/ericroquemore/node_modules/mysql
+297 silly doSerial build 2
+298 silly build db-mysql@0.7.6
+299 info linkStuff db-mysql@0.7.6
+300 silly linkStuff db-mysql@0.7.6 has /Users/ericroquemore/node_modules as its parent node_modules
+301 verbose linkBins db-mysql@0.7.6
+302 verbose linkMans db-mysql@0.7.6
+303 silly build mysql@2.10.2
+304 info linkStuff mysql@2.10.2
+305 silly linkStuff mysql@2.10.2 has /Users/ericroquemore/node_modules as its parent node_modules
+306 verbose linkBins mysql@2.10.2
+307 verbose linkMans mysql@2.10.2
+308 silly doSerial global-link 0
+309 silly doParallel update-linked 0
+310 silly doSerial install 2
+311 silly install db-mysql@0.7.6 /Users/ericroquemore/node_modules/.staging/db-mysql-8cf8eac0
+312 info lifecycle db-mysql@0.7.6~install: db-mysql@0.7.6
+313 verbose lifecycle db-mysql@0.7.6~install: unsafe-perm in lifecycle false
+314 verbose lifecycle db-mysql@0.7.6~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/ericroquemore/node_modules/db-mysql/node_modules/.bin:/Users/ericroquemore/node_modules/.bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin
+315 verbose lifecycle db-mysql@0.7.6~install: CWD: /Users/ericroquemore/node_modules/db-mysql
+316 silly lifecycle db-mysql@0.7.6~install: Args: [ '-c', 'node-waf configure build' ]
+317 info lifecycle db-mysql@0.7.6~install: Failed to exec install script
+318 verbose unlock done using /Users/ericroquemore/.npm/_locks/staging-8b53451dcd6d3a75.lock for /Users/ericroquemore/node_modules/.staging
+319 silly rollbackFailedOptional Starting
+320 silly rollbackFailedOptional Finishing
+321 silly runTopLevelLifecycles Starting
+322 silly runTopLevelLifecycles Finishing
+323 silly install printInstalled
+324 warn enoent ENOENT, open '/Users/ericroquemore/package.json'
+325 warn ericroquemore No description
+326 warn ericroquemore No repository field.
+327 warn ericroquemore No README data
+328 warn ericroquemore No license field.
+329 verbose stack Error: db-mysql@0.7.6 install: `node-waf configure build`
+329 verbose stack spawn ENOENT
+329 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+329 verbose stack     at ChildProcess.emit (events.js:98:17)
+329 verbose stack     at maybeClose (child_process.js:755:16)
+329 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:822:5)
+330 verbose pkgid db-mysql@0.7.6
+331 verbose cwd /Users/ericroquemore/Desktop/hackrice
+332 error Darwin 13.4.0
+333 error argv "node" "/usr/local/bin/npm" "install" "db-mysql"
+334 error node v0.10.29
+335 error npm  v3.5.3
+336 error file sh
+337 error code ELIFECYCLE
+338 error errno ENOENT
+339 error syscall spawn
+340 error db-mysql@0.7.6 install: `node-waf configure build`
+340 error spawn ENOENT
+341 error Failed at the db-mysql@0.7.6 install script 'node-waf configure build'.
+341 error Make sure you have the latest version of node.js and npm installed.
+341 error If you do, this is most likely a problem with the db-mysql package,
+341 error not with npm itself.
+341 error Tell the author that this fails on your system:
+341 error     node-waf configure build
+341 error You can get information on how to open an issue for this project with:
+341 error     npm bugs db-mysql
+341 error Or if that isn't available, you can get their info via:
+341 error     npm owner ls db-mysql
+341 error There is likely additional logging output above.
+342 verbose exit [ 1, true ]

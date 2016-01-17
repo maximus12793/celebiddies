@@ -1,0 +1,52 @@
+.card {
+	padding: 10px 10px 10px 10px;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-radius: 30px;
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+
+	.picture {
+		border-radius: 50%;
+	}
+	
+	.info {
+		padding-left: 7em;
+	}
+
+	.wiki {
+		margin-top: 1em;
+	}
+	.name {
+		font-size: 3em;
+	}
+
+	.stats {
+		font-size: 2em;
+		margin: 5px;
+	}
+
+	#yeezy {
+		font-size: 1em;
+	}
+
+	.circle-singleline {
+	    width: 150px;
+	    height: 150px;
+	    border-radius: 50%;
+	    font-size: 30px;
+	    line-height: 150px;
+	    text-align: center;    
+	    background: #1D84B5;
+	    color: #fff;
+	}
+
+	.glyphicon {
+		background: #04A777;
+	}
+
+
+}
