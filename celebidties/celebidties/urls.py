@@ -21,6 +21,8 @@ urlpatterns = patterns('',
     url(r'^test/', 'celebidties.views.test'),
     url(r'^pretty/', 'celebidties.views.pretty'),
 
+    # url(r'^test2/', 'celebidties.views.test2'),
+
     url(r'^test2/', 'celebidties.views.test2'),
     # (r'^articles/(\d{4})/$', 'news.views.year_archive'),
     # Uncomment the next line to enable the admin:
